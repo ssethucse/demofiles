@@ -1206,6 +1206,7 @@ class CheckoutComponent {
     this.cartService.totalPrice.next(0);
     this.cartService.totalDiscount.next(0);
     this.checkoutFormGroup.reset();
+    this.storage.removeItem('cartItems');
     this.router.navigateByUrl("/product/getProducts");
   }
 
@@ -1424,7 +1425,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function LoginStatusComponent_div_1_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
   }
@@ -1436,31 +1437,31 @@ function LoginStatusComponent_div_1_Template(rf, ctx) {
   }
 }
 
-function LoginStatusComponent_div_8_Template(rf, ctx) {
+function LoginStatusComponent_div_6_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div")(1, "button", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div")(1, "button", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2, "Login");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
   }
 }
 
-function LoginStatusComponent_div_9_Template(rf, ctx) {
+function LoginStatusComponent_div_7_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div")(1, "button", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div")(1, "button", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2, "Member");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
   }
 }
 
-function LoginStatusComponent_div_10_Template(rf, ctx) {
+function LoginStatusComponent_div_8_Template(rf, ctx) {
   if (rf & 1) {
     const _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵgetCurrentView"]();
 
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div")(1, "button", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div")(1, "button", 9);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2, "Orders");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](3, "button", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function LoginStatusComponent_div_10_Template_button_click_3_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](3, "button", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function LoginStatusComponent_div_8_Template_button_click_3_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵrestoreView"](_r5);
       const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵresetView"](ctx_r4.logout());
@@ -1530,8 +1531,8 @@ class LoginStatusComponent {
   logout() {
     /* this.oktaAuth.signOut(); */
     this.storage.clear();
-    this.memberShow = false;
-    location.reload();
+    this.memberShow = false; //location.reload();
+
     this.router.navigateByUrl("product/getProducts");
   }
 
@@ -1544,29 +1545,28 @@ LoginStatusComponent.ɵfac = function LoginStatusComponent_Factory(t) {
 LoginStatusComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({
   type: LoginStatusComponent,
   selectors: [["app-login-status"]],
-  decls: 11,
+  decls: 9,
   vars: 4,
-  consts: [[1, "login-status-header"], ["class", "login-status-user-info", 4, "ngIf"], ["routerLink", "/about", "data-toggle", "tooltip", "data-placement", "bottom", "title", "R-77,\n  Ground Floor,\n  MMDA Colony, Water Tank Road,\n  Arumbakkam,\n  Near Poorvika Showroom,\n  Chennai - 600029", 1, "security-btn"], [1, "bi", "bi-geo"], ["routerLink", "/about", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Call Us For Enquiry or Delivery!", 1, "security-btn", "ml-1"], [1, "bi", "bi-phone"], [4, "ngIf"], [1, "login-status-user-info"], ["routerLink", "/login", 1, "security-btn"], ["routerLink", "/members", 1, "security-btn", "ml-1"], ["routerLink", "/order-history", 1, "security-btn", "ml-3"], [1, "security-btn", 3, "click"]],
+  consts: [[1, "login-status-header"], ["class", "login-status-user-info", 4, "ngIf"], ["routerLink", "/about", "data-toggle", "tooltip", "data-placement", "bottom", "title", "Call Us For Enquiry or Delivery!\n    R-77,\n    Ground Floor,\n    MMDA Colony, Water Tank Road,\n    Arumbakkam,\n    Near Poorvika Showroom,\n    Chennai - 600029", 1, "security-btn", "ml-1"], [1, "bi", "bi-geo"], [1, "bi", "bi-phone"], [4, "ngIf"], [1, "login-status-user-info"], ["routerLink", "/login", 1, "security-btn"], ["routerLink", "/members", 1, "security-btn", "ml-1"], ["routerLink", "/order-history", 1, "security-btn", "ml-3"], [1, "security-btn", 3, "click"]],
   template: function LoginStatusComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 0);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](1, LoginStatusComponent_div_1_Template, 2, 1, "div", 1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](2, "div", 2)(3, "span", 3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](4, "Location");
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](2, "div", 2);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](3, "span", 3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "span", 4);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](5, "9944370922");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](5, "div", 4)(6, "span", 5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](7, "9944370922");
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](8, LoginStatusComponent_div_8_Template, 3, 0, "div", 6);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](9, LoginStatusComponent_div_9_Template, 3, 0, "div", 6);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](10, LoginStatusComponent_div_10_Template, 5, 0, "div", 6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](6, LoginStatusComponent_div_6_Template, 3, 0, "div", 5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](7, LoginStatusComponent_div_7_Template, 3, 0, "div", 5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](8, LoginStatusComponent_div_8_Template, 5, 0, "div", 5);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     }
 
     if (rf & 2) {
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx.isAuthenticated && ctx.userFullName);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](5);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", !ctx.orderHistory);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx.memberShow);
@@ -1884,7 +1884,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 2560);
 /* harmony import */ var src_app_services_order_history_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/services/order-history.service */ 6015);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ 4666);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ 124);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ 4666);
+
 
 
 
@@ -2064,8 +2066,9 @@ function MembersPageComponent_div_7_Template(rf, ctx) {
 }
 
 class MembersPageComponent {
-  constructor(orderHistoryService) {
+  constructor(orderHistoryService, router) {
     this.orderHistoryService = orderHistoryService;
+    this.router = router;
     this.orderHistoryList = [];
     this.orderInvoiceList = [];
   }
@@ -2084,7 +2087,7 @@ class MembersPageComponent {
     this.orderHistoryService.updateOrder(id).subscribe(data => {
       console.log(data);
     });
-    location.reload();
+    this.router.navigateByUrl("/product/getProducts"); //location.reload();
   }
 
   invoiceDetails(id) {
@@ -2096,7 +2099,7 @@ class MembersPageComponent {
 }
 
 MembersPageComponent.ɵfac = function MembersPageComponent_Factory(t) {
-  return new (t || MembersPageComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_services_order_history_service__WEBPACK_IMPORTED_MODULE_0__.OrderHistoryService));
+  return new (t || MembersPageComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_services_order_history_service__WEBPACK_IMPORTED_MODULE_0__.OrderHistoryService), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__.Router));
 };
 
 MembersPageComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
@@ -2125,7 +2128,7 @@ MembersPageComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.orderHistoryList.length > 0);
     }
   },
-  dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_2__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_2__.NgIf, _angular_common__WEBPACK_IMPORTED_MODULE_2__.CurrencyPipe, _angular_common__WEBPACK_IMPORTED_MODULE_2__.DatePipe],
+  dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_3__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_3__.NgIf, _angular_common__WEBPACK_IMPORTED_MODULE_3__.CurrencyPipe, _angular_common__WEBPACK_IMPORTED_MODULE_3__.DatePipe],
   styles: ["\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ== */"]
 });
 
@@ -3423,8 +3426,8 @@ __webpack_require__.r(__webpack_exports__);
 // The list of file replacements can be found in `angular.json`.
 const environment = {
   production: false,
-  //baseUrl: "http://localhost:8085"
-  baseUrl: "http://ec2-54-146-9-127.compute-1.amazonaws.com:8080"
+  baseUrl: "http://localhost:8085" //baseUrl: "http://ec2-54-146-9-127.compute-1.amazonaws.com:8080"
+
 };
 /*
  * For easier debugging in development mode, you can import the following file
