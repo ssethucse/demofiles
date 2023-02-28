@@ -167,8 +167,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-/* import { OktaAuthModule, OktaCallbackComponent, OKTA_CONFIG } from '@okta/okta-angular';
-import { OktaAuth } from '@Okta/okta-auth-js'; */
 
 
 
@@ -179,10 +177,6 @@ import { OktaAuth } from '@Okta/okta-auth-js'; */
 
 
 
-
-/* const oktaConfig = myAppConfig.oidc;
-
-const oktaAuth = new OktaAuth(oktaConfig); */
 
 function sendToLoginPage(injector) {
   const router = injector.get(_angular_router__WEBPACK_IMPORTED_MODULE_16__.Router);
@@ -253,12 +247,10 @@ AppModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_17__["ɵɵ
     provide: _angular_common_http__WEBPACK_IMPORTED_MODULE_18__.HTTP_INTERCEPTORS,
     useClass: src_app_services_auth_interceptor_service__WEBPACK_IMPORTED_MODULE_11__.AuthInterceptorService,
     multi: true
-  }
-  /* , { provide: OKTA_CONFIG, useValue: { oktaAuth }} */
-  ],
-  imports: [_angular_router__WEBPACK_IMPORTED_MODULE_16__.RouterModule.forRoot(routes), _angular_platform_browser__WEBPACK_IMPORTED_MODULE_19__.BrowserModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_18__.HttpClientModule, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_20__.NgbModule, _angular_forms__WEBPACK_IMPORTED_MODULE_21__.ReactiveFormsModule, _angular_material_button__WEBPACK_IMPORTED_MODULE_22__.MatButtonModule, _angular_material_input__WEBPACK_IMPORTED_MODULE_23__.MatInputModule, _angular_forms__WEBPACK_IMPORTED_MODULE_21__.FormsModule, _angular_material_card__WEBPACK_IMPORTED_MODULE_24__.MatCardModule, _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_25__.BrowserAnimationsModule, ngx_toastr__WEBPACK_IMPORTED_MODULE_26__.ToastrModule.forRoot()
-  /* OktaAuthModule */
-  ]
+  }],
+  imports: [_angular_router__WEBPACK_IMPORTED_MODULE_16__.RouterModule.forRoot(routes, {
+    scrollPositionRestoration: 'enabled'
+  }), _angular_platform_browser__WEBPACK_IMPORTED_MODULE_19__.BrowserModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_18__.HttpClientModule, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_20__.NgbModule, _angular_forms__WEBPACK_IMPORTED_MODULE_21__.ReactiveFormsModule, _angular_material_button__WEBPACK_IMPORTED_MODULE_22__.MatButtonModule, _angular_material_input__WEBPACK_IMPORTED_MODULE_23__.MatInputModule, _angular_forms__WEBPACK_IMPORTED_MODULE_21__.FormsModule, _angular_material_card__WEBPACK_IMPORTED_MODULE_24__.MatCardModule, _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_25__.BrowserAnimationsModule, ngx_toastr__WEBPACK_IMPORTED_MODULE_26__.ToastrModule.forRoot()]
 });
 
 (function () {
@@ -1509,15 +1501,9 @@ function LoginStatusComponent_div_7_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
   }
 }
-/* import { OktaAuthStateService, OKTA_AUTH } from '@okta/okta-angular';
-import { OktaAuth } from '@okta/okta-auth-js'; */
-
 
 class LoginStatusComponent {
-  constructor(
-  /* private oktaAuthService: OktaAuthStateService,
-  @Inject(OKTA_AUTH) private oktaAuth: OktaAuth */
-  route, authService, router) {
+  constructor(route, authService, router) {
     this.route = route;
     this.authService = authService;
     this.router = router;
@@ -1529,12 +1515,6 @@ class LoginStatusComponent {
   }
 
   ngOnInit() {
-    /*   this.oktaAuthService.authState$.subscribe(
-        (result)=> {
-          this.isAuthenticated = result.isAuthenticated;
-          this.getUserDetails();
-        }
-      ); */
     let customer = new src_app_common_customer__WEBPACK_IMPORTED_MODULE_0__.Customer();
     customer.phone = JSON.parse(this.storage.getItem('phone'));
     customer.identity = JSON.parse(this.storage.getItem('identity'));
@@ -1555,23 +1535,15 @@ class LoginStatusComponent {
   }
 
   getUserDetails() {
-    /*   if(this.isAuthenticated){
-        this.oktaAuth.getUser().then(
-          (res)=> {
-            this.userFullName = res.user as string;
-    
-            const theEmail = res.email;
-            this.storage.setItem('userEmail',JSON.stringify(theEmail));
-          }
-        );
-      } */
+    this.ngOnInit();
   }
 
   logout() {
-    /* this.oktaAuth.signOut(); */
     this.storage.clear();
     this.memberShow = false; //location.reload();
+    //window.location.reload();
 
+    window.location.href = window.location.href;
     this.router.navigateByUrl("product/getProducts");
   }
 
@@ -1652,16 +1624,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class LoginComponent {
-  constructor(route, router, otpService, authService, toastr
-  /* @Inject(OKTA_AUTH) private oktaAuth: OktaAuth */
-  ) {
+  constructor(route, router, otpService, authService, toastr) {
     this.route = route;
     this.router = router;
     this.otpService = otpService;
     this.authService = authService;
     this.toastr = toastr;
-    /* oktaSignin: any; */
-
     this.username = "";
     this.password = "";
     this.phone = "";
@@ -1674,18 +1642,6 @@ class LoginComponent {
     if (JSON.parse(this.storage.getItem('orderHistory'))) {
       this.router.navigateByUrl("product/getProducts");
     }
-    /* this.oktaSignin = new OktaSignIn({
-      logo: 'assets/images/logo.png',
-      baseUrl: myAppConfig.oidc.issuer.split('/oauth2')[0],
-      clientId: myAppConfig.oidc.clientId,
-      redirectUri: myAppConfig.oidc.redirectUri,
-      authParams: {
-        pkce: true,
-        issuer: myAppConfig.oidc.issuer,
-        scopes: myAppConfig.oidc.scopes
-      }
-    }); */
-
 
     if (JSON.parse(this.storage.getItem('phone')) != null) {
       this.phone = JSON.parse(this.storage.getItem('phone'));
@@ -1694,18 +1650,9 @@ class LoginComponent {
   }
 
   ngOnInit() {
-    /* this.oktaSignin.remove();
-            this.oktaSignin.renderEl({
-      el: '#okta-sign-in-widget'},
-      (response: any)=>{
-        if(response.status=== 'SUCCESS'){
-          this.oktaAuth.signInWithRedirect();
-        }
-      },
-      (error: any) => {
-        throw error;
-       }
-      ); */
+    /* this.router.navigateByUrl('/LoginStatusComponent', { skipLocationChange: false }).then(() => {
+        //this.router.navigate(['product/getProducts']);
+    }); */
   }
 
   submit() {
@@ -1749,8 +1696,9 @@ class LoginComponent {
           });
           this.storage.setItem('orderHistory', JSON.stringify("true")); //window.location.reload();
 
-          location.reload();
-          this.router.navigateByUrl("product/getProducts"); //alert(`Login Successfully.${response.data}`);
+          window.location.href = window.location.href; //location.reload();
+          //this.router.navigateByUrl("product/getProducts");
+          //alert(`Login Successfully.${response.data}`);
         },
         error: err => {
           //alert(`There was an error:${err.message}`);
@@ -1760,8 +1708,8 @@ class LoginComponent {
           return;
         }
       }); //this.errorMsg="";
-      //this.router.navigateByUrl("product/getProducts");
-      //this.storage.setItem('orderHistory',JSON.stringify("true"));
+
+      this.router.navigateByUrl("product/getProducts"); //this.storage.setItem('orderHistory',JSON.stringify("true"));
     }
 
     this.clear();
