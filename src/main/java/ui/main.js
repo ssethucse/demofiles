@@ -118,33 +118,32 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AppModule": () => (/* binding */ AppModule)
 /* harmony export */ });
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/platform-browser */ 4497);
-/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @angular/material/button */ 4522);
-/* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @angular/material/input */ 8562);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/forms */ 2508);
-/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @angular/material/card */ 2156);
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/platform-browser */ 4497);
+/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/material/button */ 4522);
+/* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @angular/material/input */ 8562);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/forms */ 2508);
+/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @angular/material/card */ 2156);
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app.component */ 5041);
 /* harmony import */ var _components_product_list_product_list_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/product-list/product-list.component */ 4646);
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/common/http */ 8987);
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/common/http */ 8987);
 /* harmony import */ var _services_product_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./services/product.service */ 6082);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/router */ 124);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/router */ 124);
 /* harmony import */ var _components_product_category_menu_product_category_menu_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/product-category-menu/product-category-menu.component */ 5428);
 /* harmony import */ var _components_search_search_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/search/search.component */ 9055);
 /* harmony import */ var _components_product_details_product_details_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/product-details/product-details.component */ 6525);
-/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 4534);
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 4534);
 /* harmony import */ var _components_cart_status_cart_status_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/cart-status/cart-status.component */ 2769);
 /* harmony import */ var _components_cart_details_cart_details_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/cart-details/cart-details.component */ 1201);
 /* harmony import */ var _components_checkout_checkout_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/checkout/checkout.component */ 8149);
 /* harmony import */ var _components_login_login_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/login/login.component */ 7143);
 /* harmony import */ var _components_login_status_login_status_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/login-status/login-status.component */ 3946);
 /* harmony import */ var src_app_services_auth_interceptor_service__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! src/app/services/auth-interceptor.service */ 2993);
-/* harmony import */ var _components_members_page_members_page_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/members-page/members-page.component */ 5367);
-/* harmony import */ var _components_order_history_order_history_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/order-history/order-history.component */ 8767);
-/* harmony import */ var _components_alert_alert_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/alert/alert.component */ 9803);
-/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @angular/platform-browser/animations */ 7146);
-/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ngx-toastr */ 4817);
-/* harmony import */ var _components_about_about_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/about/about.component */ 2468);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/core */ 2560);
+/* harmony import */ var _components_order_history_order_history_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/order-history/order-history.component */ 8767);
+/* harmony import */ var _components_alert_alert_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/alert/alert.component */ 9803);
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @angular/platform-browser/animations */ 7146);
+/* harmony import */ var ngx_toastr__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ngx-toastr */ 4817);
+/* harmony import */ var _components_about_about_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/about/about.component */ 2468);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/core */ 2560);
 
 
 
@@ -174,25 +173,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-
-
-
-function sendToLoginPage(injector) {
-  const router = injector.get(_angular_router__WEBPACK_IMPORTED_MODULE_16__.Router);
-  router.navigate(['/login']);
-}
 
 const routes = [{
   path: 'order-history',
-  component: _components_order_history_order_history_component__WEBPACK_IMPORTED_MODULE_13__.OrderHistoryComponent
-  /* canActivate: [true], data: { onAuthRequired: sendToLoginPage } */
-
-}, {
-  path: 'members',
-  component: _components_members_page_members_page_component__WEBPACK_IMPORTED_MODULE_12__.MembersPageComponent
-  /* , canActivate: [false], data: { onAuthRequired: sendToLoginPage } */
-
+  component: _components_order_history_order_history_component__WEBPACK_IMPORTED_MODULE_12__.OrderHistoryComponent
 }, {
   path: 'login/callback',
   component: _components_login_login_component__WEBPACK_IMPORTED_MODULE_9__.LoginComponent
@@ -201,10 +185,10 @@ const routes = [{
   component: _components_login_login_component__WEBPACK_IMPORTED_MODULE_9__.LoginComponent
 }, {
   path: 'alert',
-  component: _components_alert_alert_component__WEBPACK_IMPORTED_MODULE_14__.AlertComponent
+  component: _components_alert_alert_component__WEBPACK_IMPORTED_MODULE_13__.AlertComponent
 }, {
   path: 'about',
-  component: _components_about_about_component__WEBPACK_IMPORTED_MODULE_15__.AboutComponent
+  component: _components_about_about_component__WEBPACK_IMPORTED_MODULE_14__.AboutComponent
 }, {
   path: 'checkout',
   component: _components_checkout_checkout_component__WEBPACK_IMPORTED_MODULE_8__.CheckoutComponent
@@ -238,25 +222,25 @@ AppModule.ɵfac = function AppModule_Factory(t) {
   return new (t || AppModule)();
 };
 
-AppModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_17__["ɵɵdefineNgModule"]({
+AppModule.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵdefineNgModule"]({
   type: AppModule,
   bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_0__.AppComponent]
 });
-AppModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_17__["ɵɵdefineInjector"]({
+AppModule.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵdefineInjector"]({
   providers: [_services_product_service__WEBPACK_IMPORTED_MODULE_2__.ProductService, {
-    provide: _angular_common_http__WEBPACK_IMPORTED_MODULE_18__.HTTP_INTERCEPTORS,
+    provide: _angular_common_http__WEBPACK_IMPORTED_MODULE_16__.HTTP_INTERCEPTORS,
     useClass: src_app_services_auth_interceptor_service__WEBPACK_IMPORTED_MODULE_11__.AuthInterceptorService,
     multi: true
   }],
-  imports: [_angular_router__WEBPACK_IMPORTED_MODULE_16__.RouterModule.forRoot(routes, {
+  imports: [_angular_router__WEBPACK_IMPORTED_MODULE_17__.RouterModule.forRoot(routes, {
     scrollPositionRestoration: 'enabled'
-  }), _angular_platform_browser__WEBPACK_IMPORTED_MODULE_19__.BrowserModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_18__.HttpClientModule, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_20__.NgbModule, _angular_forms__WEBPACK_IMPORTED_MODULE_21__.ReactiveFormsModule, _angular_material_button__WEBPACK_IMPORTED_MODULE_22__.MatButtonModule, _angular_material_input__WEBPACK_IMPORTED_MODULE_23__.MatInputModule, _angular_forms__WEBPACK_IMPORTED_MODULE_21__.FormsModule, _angular_material_card__WEBPACK_IMPORTED_MODULE_24__.MatCardModule, _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_25__.BrowserAnimationsModule, ngx_toastr__WEBPACK_IMPORTED_MODULE_26__.ToastrModule.forRoot()]
+  }), _angular_platform_browser__WEBPACK_IMPORTED_MODULE_18__.BrowserModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_16__.HttpClientModule, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_19__.NgbModule, _angular_forms__WEBPACK_IMPORTED_MODULE_20__.ReactiveFormsModule, _angular_material_button__WEBPACK_IMPORTED_MODULE_21__.MatButtonModule, _angular_material_input__WEBPACK_IMPORTED_MODULE_22__.MatInputModule, _angular_forms__WEBPACK_IMPORTED_MODULE_20__.FormsModule, _angular_material_card__WEBPACK_IMPORTED_MODULE_23__.MatCardModule, _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_24__.BrowserAnimationsModule, ngx_toastr__WEBPACK_IMPORTED_MODULE_25__.ToastrModule.forRoot()]
 });
 
 (function () {
-  (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_17__["ɵɵsetNgModuleScope"](AppModule, {
-    declarations: [_app_component__WEBPACK_IMPORTED_MODULE_0__.AppComponent, _components_product_list_product_list_component__WEBPACK_IMPORTED_MODULE_1__.ProductListComponent, _components_product_category_menu_product_category_menu_component__WEBPACK_IMPORTED_MODULE_3__.ProductCategoryMenuComponent, _components_search_search_component__WEBPACK_IMPORTED_MODULE_4__.SearchComponent, _components_product_details_product_details_component__WEBPACK_IMPORTED_MODULE_5__.ProductDetailsComponent, _components_cart_status_cart_status_component__WEBPACK_IMPORTED_MODULE_6__.CartStatusComponent, _components_cart_details_cart_details_component__WEBPACK_IMPORTED_MODULE_7__.CartDetailsComponent, _components_checkout_checkout_component__WEBPACK_IMPORTED_MODULE_8__.CheckoutComponent, _components_login_login_component__WEBPACK_IMPORTED_MODULE_9__.LoginComponent, _components_login_status_login_status_component__WEBPACK_IMPORTED_MODULE_10__.LoginStatusComponent, _components_members_page_members_page_component__WEBPACK_IMPORTED_MODULE_12__.MembersPageComponent, _components_order_history_order_history_component__WEBPACK_IMPORTED_MODULE_13__.OrderHistoryComponent, _components_alert_alert_component__WEBPACK_IMPORTED_MODULE_14__.AlertComponent, _components_about_about_component__WEBPACK_IMPORTED_MODULE_15__.AboutComponent],
-    imports: [_angular_router__WEBPACK_IMPORTED_MODULE_16__.RouterModule, _angular_platform_browser__WEBPACK_IMPORTED_MODULE_19__.BrowserModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_18__.HttpClientModule, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_20__.NgbModule, _angular_forms__WEBPACK_IMPORTED_MODULE_21__.ReactiveFormsModule, _angular_material_button__WEBPACK_IMPORTED_MODULE_22__.MatButtonModule, _angular_material_input__WEBPACK_IMPORTED_MODULE_23__.MatInputModule, _angular_forms__WEBPACK_IMPORTED_MODULE_21__.FormsModule, _angular_material_card__WEBPACK_IMPORTED_MODULE_24__.MatCardModule, _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_25__.BrowserAnimationsModule, ngx_toastr__WEBPACK_IMPORTED_MODULE_26__.ToastrModule]
+  (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵsetNgModuleScope"](AppModule, {
+    declarations: [_app_component__WEBPACK_IMPORTED_MODULE_0__.AppComponent, _components_product_list_product_list_component__WEBPACK_IMPORTED_MODULE_1__.ProductListComponent, _components_product_category_menu_product_category_menu_component__WEBPACK_IMPORTED_MODULE_3__.ProductCategoryMenuComponent, _components_search_search_component__WEBPACK_IMPORTED_MODULE_4__.SearchComponent, _components_product_details_product_details_component__WEBPACK_IMPORTED_MODULE_5__.ProductDetailsComponent, _components_cart_status_cart_status_component__WEBPACK_IMPORTED_MODULE_6__.CartStatusComponent, _components_cart_details_cart_details_component__WEBPACK_IMPORTED_MODULE_7__.CartDetailsComponent, _components_checkout_checkout_component__WEBPACK_IMPORTED_MODULE_8__.CheckoutComponent, _components_login_login_component__WEBPACK_IMPORTED_MODULE_9__.LoginComponent, _components_login_status_login_status_component__WEBPACK_IMPORTED_MODULE_10__.LoginStatusComponent, _components_order_history_order_history_component__WEBPACK_IMPORTED_MODULE_12__.OrderHistoryComponent, _components_alert_alert_component__WEBPACK_IMPORTED_MODULE_13__.AlertComponent, _components_about_about_component__WEBPACK_IMPORTED_MODULE_14__.AboutComponent],
+    imports: [_angular_router__WEBPACK_IMPORTED_MODULE_17__.RouterModule, _angular_platform_browser__WEBPACK_IMPORTED_MODULE_18__.BrowserModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_16__.HttpClientModule, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_19__.NgbModule, _angular_forms__WEBPACK_IMPORTED_MODULE_20__.ReactiveFormsModule, _angular_material_button__WEBPACK_IMPORTED_MODULE_21__.MatButtonModule, _angular_material_input__WEBPACK_IMPORTED_MODULE_22__.MatInputModule, _angular_forms__WEBPACK_IMPORTED_MODULE_20__.FormsModule, _angular_material_card__WEBPACK_IMPORTED_MODULE_23__.MatCardModule, _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_24__.BrowserAnimationsModule, ngx_toastr__WEBPACK_IMPORTED_MODULE_25__.ToastrModule]
   });
 })();
 
@@ -1478,24 +1462,16 @@ function LoginStatusComponent_div_5_Template(rf, ctx) {
 
 function LoginStatusComponent_div_6_Template(rf, ctx) {
   if (rf & 1) {
+    const _r4 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵgetCurrentView"]();
+
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div")(1, "button", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2, "Member");
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-  }
-}
-
-function LoginStatusComponent_div_7_Template(rf, ctx) {
-  if (rf & 1) {
-    const _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵgetCurrentView"]();
-
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div")(1, "button", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](2, "Orders");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](3, "button", 8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function LoginStatusComponent_div_7_Template_button_click_3_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵrestoreView"](_r5);
-      const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
-      return _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵresetView"](ctx_r4.logout());
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](3, "button", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵlistener"]("click", function LoginStatusComponent_div_6_Template_button_click_3_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵrestoreView"](_r4);
+      const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
+      return _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵresetView"](ctx_r3.logout());
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](4, "Logout");
     _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
@@ -1510,7 +1486,6 @@ class LoginStatusComponent {
     this.isAuthenticated = false;
     this.userFullName = '';
     this.orderHistory = false;
-    this.memberShow = false;
     this.storage = localStorage;
   }
 
@@ -1518,19 +1493,6 @@ class LoginStatusComponent {
     let customer = new src_app_common_customer__WEBPACK_IMPORTED_MODULE_0__.Customer();
     customer.phone = JSON.parse(this.storage.getItem('phone'));
     customer.identity = JSON.parse(this.storage.getItem('identity'));
-
-    if (customer.phone == '9944370922' && customer.identity == '870306080171') {
-      this.authService.getAuthenticateDetail(customer).subscribe({
-        next: response => {
-          this.memberShow = true;
-        },
-        error: err => {
-          this.memberShow = false;
-          console.log(`There was an error:${err.message}`);
-        }
-      });
-    }
-
     this.orderHistory = JSON.parse(this.storage.getItem('orderHistory'));
   }
 
@@ -1539,8 +1501,7 @@ class LoginStatusComponent {
   }
 
   logout() {
-    this.storage.clear();
-    this.memberShow = false; //location.reload();
+    this.storage.clear(); //location.reload();
     //window.location.reload();
 
     window.location.href = window.location.href;
@@ -1556,9 +1517,9 @@ LoginStatusComponent.ɵfac = function LoginStatusComponent_Factory(t) {
 LoginStatusComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({
   type: LoginStatusComponent,
   selectors: [["app-login-status"]],
-  decls: 8,
-  vars: 4,
-  consts: [[1, "login-status-header"], ["class", "login-status-user-info", 4, "ngIf"], ["routerLink", "/cart-details", 1, "security-btn"], [4, "ngIf"], [1, "login-status-user-info"], ["routerLink", "/login", 1, "security-btn"], ["routerLink", "/members", 1, "security-btn", "ml-1"], ["routerLink", "/order-history", 1, "security-btn", "ml-3"], [1, "security-btn", 3, "click"]],
+  decls: 7,
+  vars: 3,
+  consts: [[1, "login-status-header"], ["class", "login-status-user-info", 4, "ngIf"], ["routerLink", "/cart-details", 1, "security-btn"], [4, "ngIf"], [1, "login-status-user-info"], ["routerLink", "/login", 1, "security-btn"], ["routerLink", "/order-history", 1, "security-btn", "ml-3"], [1, "security-btn", 3, "click"]],
   template: function LoginStatusComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 0);
@@ -1567,8 +1528,7 @@ LoginStatusComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](4, " View Cart ");
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](5, LoginStatusComponent_div_5_Template, 3, 0, "div", 3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](6, LoginStatusComponent_div_6_Template, 3, 0, "div", 3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](7, LoginStatusComponent_div_7_Template, 5, 0, "div", 3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](6, LoginStatusComponent_div_6_Template, 5, 0, "div", 3);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
     }
 
@@ -1577,8 +1537,6 @@ LoginStatusComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx.isAuthenticated && ctx.userFullName);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](4);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", !ctx.orderHistory);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx.memberShow);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx.orderHistory);
     }
@@ -1664,13 +1622,7 @@ class LoginComponent {
       let customer = new src_app_common_customer__WEBPACK_IMPORTED_MODULE_1__.Customer();
       message.phone = this.phone;
       message.otp = this.otp;
-
-      if (this.phone == "9944370922") {
-        message.identity = '870306080171';
-      } else {
-        message.identity = genUniqueId();
-      }
-
+      message.identity = genUniqueId();
       customer.phone = this.phone;
       customer.identity = message.identity;
 
@@ -1857,268 +1809,6 @@ function genUniqueId() {
 
 /***/ }),
 
-/***/ 5367:
-/*!*******************************************************************!*\
-  !*** ./src/app/components/members-page/members-page.component.ts ***!
-  \*******************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "MembersPageComponent": () => (/* binding */ MembersPageComponent)
-/* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 2560);
-/* harmony import */ var src_app_services_order_history_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/app/services/order-history.service */ 6015);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ 124);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ 4666);
-
-
-
-
-
-function MembersPageComponent_div_5_tr_17_Template(rf, ctx) {
-  if (rf & 1) {
-    const _r6 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵgetCurrentView"]();
-
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "tr")(1, "td");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "td");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](5, "currency");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "td");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "td");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](10, "date");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "td");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](13, "td");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](14);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](15, "div")(16, "td")(17, "button", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MembersPageComponent_div_5_tr_17_Template_button_click_17_listener() {
-      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r6);
-      const temp_r4 = restoredCtx.$implicit;
-      const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx_r5.updateStatus(temp_r4.orderTrackingNumber));
-    });
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](18, "Update");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](19, "td")(20, "button", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function MembersPageComponent_div_5_tr_17_Template_button_click_20_listener() {
-      const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵrestoreView"](_r6);
-      const temp_r4 = restoredCtx.$implicit;
-      const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵresetView"](ctx_r7.invoiceDetails(temp_r4.orderTrackingNumber));
-    });
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](21, "Details");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()();
-  }
-
-  if (rf & 2) {
-    const temp_r4 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](temp_r4.orderTrackingNumber);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind2"](5, 6, temp_r4.totalPrice, "INR"));
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](temp_r4.totalQuantity);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind2"](10, 9, temp_r4.dateCreated, "medium"));
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](temp_r4.status);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](temp_r4.phone);
-  }
-}
-
-function MembersPageComponent_div_5_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div")(1, "table", 5)(2, "tr")(3, "th", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4, "Order Tracking Number");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "th", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6, "Total Price");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "th", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, "Total Quantity");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "th", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](10, "Date");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "th", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](12, "Status");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](13, "th", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](14, "Phone");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](15, "th", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](16, "Action");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](17, MembersPageComponent_div_5_tr_17_Template, 22, 12, "tr", 8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-  }
-
-  if (rf & 2) {
-    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx_r0.orderHistoryList);
-  }
-}
-
-function MembersPageComponent_div_6_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, " No Orders Found. ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-  }
-}
-
-function MembersPageComponent_div_7_tr_15_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "tr")(1, "td");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](3, "td");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "td");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](7, "currency");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "td");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "td");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "td");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-  }
-
-  if (rf & 2) {
-    const temp_r9 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](temp_r9.name);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](temp_r9.quantity);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind2"](7, 6, temp_r9.price, "INR"));
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](temp_r9.street);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](temp_r9.location);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](temp_r9.zip);
-  }
-}
-
-function MembersPageComponent_div_7_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div")(1, "table", 5)(2, "tr")(3, "th", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4, "Name");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "th", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6, "quantity");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "th", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, "price");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "th", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](10, "Street");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "th", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](12, "Location");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](13, "th", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](14, "ZipCode");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](15, MembersPageComponent_div_7_tr_15_Template, 14, 9, "tr", 8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-  }
-
-  if (rf & 2) {
-    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](15);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx_r2.orderInvoiceList);
-  }
-}
-
-class MembersPageComponent {
-  constructor(orderHistoryService, router) {
-    this.orderHistoryService = orderHistoryService;
-    this.router = router;
-    this.orderHistoryList = [];
-    this.orderInvoiceList = [];
-  }
-
-  ngOnInit() {
-    this.handleOrderHistory();
-  }
-
-  handleOrderHistory() {
-    this.orderHistoryService.getOrders().subscribe(data => {
-      this.orderHistoryList = data;
-    });
-  }
-
-  updateStatus(id) {
-    this.orderHistoryService.updateOrder(id).subscribe(data => {
-      console.log(data);
-    });
-    this.router.navigateByUrl("/product/getProducts"); //location.reload();
-  }
-
-  invoiceDetails(id) {
-    this.orderHistoryService.updateInvoice(id).subscribe(data => {
-      this.orderInvoiceList = data;
-    });
-  }
-
-}
-
-MembersPageComponent.ɵfac = function MembersPageComponent_Factory(t) {
-  return new (t || MembersPageComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](src_app_services_order_history_service__WEBPACK_IMPORTED_MODULE_0__.OrderHistoryService), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__.Router));
-};
-
-MembersPageComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
-  type: MembersPageComponent,
-  selectors: [["app-members-page"]],
-  decls: 8,
-  vars: 3,
-  consts: [[1, "main-content"], [1, "section-content", "section-content-p30"], [1, "container-fluid"], [4, "ngIf"], ["class", "alert alert-warning col-md-12", "role", "alert", 4, "ngIf"], [1, "table", "table-bordered"], ["width", "20%"], ["width", "10%"], [4, "ngFor", "ngForOf"], [1, "btn", "btn-primary", "btn-sm", 3, "click"], ["role", "alert", 1, "alert", "alert-warning", "col-md-12"]],
-  template: function MembersPageComponent_Template(rf, ctx) {
-    if (rf & 1) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "h3");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4, "Your Orders");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](5, MembersPageComponent_div_5_Template, 18, 1, "div", 3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](6, MembersPageComponent_div_6_Template, 2, 0, "div", 4);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](7, MembersPageComponent_div_7_Template, 16, 1, "div", 3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-    }
-
-    if (rf & 2) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.orderHistoryList.length > 0);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.orderHistoryList.length == 0);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.orderHistoryList.length > 0);
-    }
-  },
-  dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_3__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_3__.NgIf, _angular_common__WEBPACK_IMPORTED_MODULE_3__.CurrencyPipe, _angular_common__WEBPACK_IMPORTED_MODULE_3__.DatePipe],
-  styles: ["\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ== */"]
-});
-
-/***/ }),
-
 /***/ 8767:
 /*!*********************************************************************!*\
   !*** ./src/app/components/order-history/order-history.component.ts ***!
@@ -2226,7 +1916,6 @@ class OrderHistoryComponent {
     this.authService = authService;
     this.route = route;
     this.router = router;
-    this.orderHistoryList = [];
     this.storage = localStorage;
     this.authError = "";
   }
@@ -2261,7 +1950,8 @@ class OrderHistoryComponent {
 
     this.orderHistoryService.getOrderHistory1(thePhone).subscribe({
       next: response => {
-        this.orderHistoryList = response.content;
+        this.orderHistoryList = response; //.content;
+
         this.storage.setItem('authError', JSON.stringify("false"));
         this.authError = 'No Records Found.Please Create the Order.';
       },
@@ -3169,18 +2859,7 @@ class OrderHistoryService {
     this.httpClient = httpClient;
     this.storage = localStorage;
     this.baseUrl = src_environments_environment__WEBPACK_IMPORTED_MODULE_0__.environment.baseUrl;
-  }
-  /*  getOrderHistory(thePhone: string): Observable<GetResponseOrderHistory>{
-      this.authToken = JSON.parse(this.storage.getItem('authToken'));
-  
-      const headers = new HttpHeaders({
-       'Content-Type': 'application/json',
-       'Access-Control-Allow-Origin': '*,http://localhost:8085.com',
-       'Authorization': `Bearer ${this.authToken}`
-      })
-      const orderHistoryUrl = `${this.baseUrl}/order/findByCustomerPhone/${thePhone}`;
-      return this.httpClient.get<GetResponseOrderHistory>(orderHistoryUrl, { headers: headers });
-   } */
+  } //GetResponseOrderHistory replaced OrderHistory
 
 
   getOrderHistory1(thePhone) {
@@ -3415,7 +3094,7 @@ __webpack_require__.r(__webpack_exports__);
 const environment = {
   production: false,
   //baseUrl: "http://localhost:8085"
-  baseUrl: "http://ec2-54-146-9-127.compute-1.amazonaws.com:8080"
+  baseUrl: "http://ec2-54-146-9-127.compute-1.amazonaws.com:8085"
 };
 /*
  * For easier debugging in development mode, you can import the following file
