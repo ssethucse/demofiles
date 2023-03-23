@@ -51,9 +51,9 @@ AppComponent.ɵfac = function AppComponent_Factory(t) {
 AppComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineComponent"]({
   type: AppComponent,
   selectors: [["app-root"]],
-  decls: 60,
+  decls: 63,
   vars: 0,
-  consts: [[1, "page-wrapper"], [1, "menu-sidebar", "d-none", "d-lg-block"], [1, "logo"], ["routerLink", "/products"], ["src", "assets/images/logo.jpg", "alt", "luv2shop", "width", "80px", "height", "60px", 1, "img-responsive"], [1, "page-container"], [1, "header-desktop"], [1, "section-content", "section-content-p30"], [1, "container-fluid"], [1, "header-wrap"], [1, "account-wrap"], ["routerLink", "product/getProducts/1", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/fc.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/2", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/ic.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/3", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/chi.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/4", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/dec.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/5", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/ver.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/6", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/pmx.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/7", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/tea.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/8", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/sku.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/9", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/sgr.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/10", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/dry.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/11", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/oil.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/12", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/mla.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/13", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/rdm.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/14", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/nood.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/15", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/wht.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/16", "routerLinkActive", "active-link"], ["routerLink", "product/getProducts/17", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/dals.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["src", "assets/images/products/HDR/nuts.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], [1, "ms-auto"], ["href", "http://localhost:4200/about"]],
+  consts: [[1, "page-wrapper"], [1, "menu-sidebar", "d-none", "d-lg-block"], [1, "logo"], ["routerLink", "/products"], ["src", "assets/images/logo.jpg", "alt", "luv2shop", "width", "80px", "height", "60px", 1, "img-responsive"], [1, "page-container"], [1, "header-desktop"], [1, "section-content", "section-content-p30"], [1, "container-fluid"], [1, "header-wrap"], [1, "account-wrap"], ["direction", "left", "scrolldelay", "100", "behavior", "loop", 2, "font-family", "Calibri, sans-serif", "color", "#FFFFFF"], ["routerLink", "product/getProducts/1", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/fc.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/2", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/ic.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/3", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/chi.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/4", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/dec.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/5", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/ver.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/6", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/pmx.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/7", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/tea.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/8", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/sku.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/9", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/sgr.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/10", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/dry.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/11", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/oil.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/12", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/mla.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/13", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/rdm.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/14", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/nood.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/15", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/wht.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/16", "routerLinkActive", "active-link"], ["routerLink", "product/getProducts/17", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/dals.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], ["routerLink", "product/getProducts/18", "routerLinkActive", "active-link"], ["src", "assets/images/products/HDR/nuts.jpg", "width", "200px", "height", "110px", 1, "img-responsive"], [1, "ms-auto"], ["href", "http://localhost:4200/about"]],
   template: function AppComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 0)(1, "aside", 1)(2, "div", 2)(3, "a", 3);
@@ -65,67 +65,70 @@ AppComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵ
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](11, "app-search")(12, "app-login-status")(13, "app-cart-status");
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](14, "div", 10);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](15, "marquee", 11)(16, "span");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](17, " Shops (or) Bulk Orders, Please Contact For More Discounts & Information - 9944370922,8754084538. ");
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](15, "router-outlet");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](16, "div")(17, "h1");
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](18, "Categories");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](18, "router-outlet");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](19, "div")(20, "h1");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](21, "Categories:");
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](19, "a", 11);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](20, "img", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](22, "a", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](23, "img", 13);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](21, "a", 13);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](22, "img", 14);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](24, "a", 14);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](25, "img", 15);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](23, "a", 15);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](24, "img", 16);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](26, "a", 16);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](27, "img", 17);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](25, "a", 17);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](26, "img", 18);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](28, "a", 18);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](29, "img", 19);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](27, "a", 19);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](28, "img", 20);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](30, "a", 20);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](31, "img", 21);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](29, "a", 21);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](30, "img", 22);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](32, "a", 22);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](33, "img", 23);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](31, "a", 23);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](32, "img", 24);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](34, "a", 24);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](35, "img", 25);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](33, "a", 25);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](34, "img", 26);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](36, "a", 26);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](37, "img", 27);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](35, "a", 27);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](36, "img", 28);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](38, "a", 28);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](39, "img", 29);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](37, "a", 29);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](38, "img", 30);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](40, "a", 30);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](41, "img", 31);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](39, "a", 31);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](40, "img", 32);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](42, "a", 32);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](43, "img", 33);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](41, "a", 33);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](42, "img", 34);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](44, "a", 34);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](45, "img", 35);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](43, "a", 35);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](44, "img", 36);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](46, "a", 36);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](47, "img", 37);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](45, "a", 37);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](46, "img", 38);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](48, "a", 38);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](49, "img", 39);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](47, "a", 39);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](48, "img", 40);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](50, "a", 40);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](51, "img", 41);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](49, "a", 41);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](50, "img", 40);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](52, "a", 42);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](53, "img", 41);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](51, "a", 42);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](52, "img", 43);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](54, "a", 43);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](55, "img", 44);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](53, "a", 37);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](54, "img", 44);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](56, "a", 45);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](57, "img", 46);
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](55, "footer")(56, "ul")(57, "li", 45)(58, "a", 46);
-      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](59, "Contact Us");
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](58, "footer")(59, "ul")(60, "li", 47)(61, "a", 48);
+      _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](62, "Contact Us");
       _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()()();
     }
   },
