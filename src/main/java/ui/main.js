@@ -3302,7 +3302,8 @@ __webpack_require__.r(__webpack_exports__);
 const environment = {
   production: false,
   //baseUrl: "http://localhost:8085"
-  baseUrl: "http://ec2-54-146-9-127.compute-1.amazonaws.com:8085"
+  //baseUrl: "https://ec2-54-146-9-127.compute-1.amazonaws.com:8085"
+  baseUrl: "https://1enbpfkvxh.execute-api.us-east-1.amazonaws.com/development"
 };
 /*
  * For easier debugging in development mode, you can import the following file
