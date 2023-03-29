@@ -1601,11 +1601,9 @@ class LoginStatusComponent {
   }
 
   logout() {
-    this.storage.clear(); //location.reload();
-    //window.location.reload();
-
+    this.storage.clear();
+    this.router.navigateByUrl("product/getProducts/1");
     window.location.href = window.location.href;
-    this.router.navigateByUrl("product/getProducts");
   }
 
 }
@@ -1748,9 +1746,8 @@ class LoginComponent {
           });
           this.storage.setItem('orderHistory', JSON.stringify("true")); //window.location.reload();
 
-          window.location.href = window.location.href; //location.reload();
-          //this.router.navigateByUrl("product/getProducts");
-          //alert(`Login Successfully.${response.data}`);
+          this.router.navigateByUrl("product/getProducts/1");
+          window.location.href = window.location.href;
         },
         error: err => {
           //alert(`There was an error:${err.message}`);
@@ -2083,7 +2080,7 @@ OrderHistoryComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODUL
   template: function OrderHistoryComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "h3");
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](4, "Your Orders");
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](4, "Your Orders:");
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](5, OrderHistoryComponent_div_5_Template, 14, 1, "div", 3);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](6, OrderHistoryComponent_div_6_Template, 2, 1, "div", 4);
@@ -2092,9 +2089,9 @@ OrderHistoryComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODUL
 
     if (rf & 2) {
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", ctx.orderHistoryList.length > 0);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", ctx.orderHistoryList != null && ctx.orderHistoryList.length > 0);
       _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", ctx.orderHistoryList.length == 0);
+      _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", ctx.orderHistoryList != null && ctx.orderHistoryList.length == 0);
     }
   },
   dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_5__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_5__.NgIf, _angular_common__WEBPACK_IMPORTED_MODULE_5__.CurrencyPipe, _angular_common__WEBPACK_IMPORTED_MODULE_5__.DatePipe],
